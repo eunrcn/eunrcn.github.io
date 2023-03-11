@@ -1,0 +1,43 @@
+body {
+background-color: black;
+color: white;
+font-family: “cursive”; 
+}
+p {
+margin: 10px;
+padding: 10px;
+/*if you want a border around your paragraphs*/
+border-style: solid;
+border-width: 5px;
+text-align: justify;
+}
+
+h1{
+	color: FA9189;}
+
+h2{
+	color: FCAE7C;}
+
+h3{
+	color: FFE699;}
+
+.item1 {color: F9FFB5;}
+.item2 {color: B3F5BC;}
+.item3 {color: D6F6FF;}
+.item4 {color: E2CBF7;}
+
+ol li {hover color: B3F5BC}
+ul li {background-color:white;}
+
+p > i {color: black;}
+
+div > p {
+color: black;
+font-size: 30px;
+}
+
+h1:hover {color: B3F5BC} 
+h2:hover {color: B3F5BC} 
+h3:hover {color: B3F5BC} 
+li:hover {color: D1BDFF}
+
