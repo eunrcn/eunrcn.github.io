@@ -1,43 +1,99 @@
+/* Set font family for the entire page */
 body {
-background-color: black;
-color: white;
-font-family: “cursive”; 
-}
-p {
-margin: 10px;
-padding: 10px;
-/*if you want a border around your paragraphs*/
-border-style: solid;
-border-width: 5px;
-text-align: justify;
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1{
-	color: FA9189;}
-
-h2{
-	color: FCAE7C;}
-
-h3{
-	color: FFE699;}
-
-.item1 {color: F9FFB5;}
-.item2 {color: B3F5BC;}
-.item3 {color: D6F6FF;}
-.item4 {color: E2CBF7;}
-
-ol li {hover color: B3F5BC}
-ul li {background-color:white;}
-
-p > i {color: black;}
-
-div > p {
-color: black;
-font-size: 30px;
+/* Style the header with a dark green background and white text */
+header {
+  background-color: #143642;
+  color: #ffffff;
+  padding: 20px;
 }
 
-h1:hover {color: B3F5BC} 
-h2:hover {color: B3F5BC} 
-h3:hover {color: B3F5BC} 
-li:hover {color: D1BDFF}
+/* Style the company name in the header */
+h1 {
+  font-size: 60px;
+  font-family: 'Futura', sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #1e2b4d;
+  text-shadow: 2px 2px #ffffff;
+}
 
+/* Style the contact information in the header */
+header p {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Style the navigation links in the header */
+nav {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+nav a {
+  color: #143642;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+/* Add a hover effect to the navigation links */
+nav a:hover {
+  color: #ffffff;
+  background-color: #143642;
+}
+
+/* Style the main content section */
+main {
+  padding: 20px;
+}
+
+/* Style the section headings */
+section h2 {
+  font-size: 30px;
+  color: #143642;
+}
+
+/* Style the equipment list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+/* Add a hover effect to the equipment list */
+ul li:hover {
+  background-color: #f5f5f5;
+}
+
+/* Style the footer with a navy background and white text */
+footer {
+  background-color: #1e2b4d;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Style the footer links */
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Add a hover effect to the footer links */
+footer a:hover {
+  text-decoration: underline;
+}
